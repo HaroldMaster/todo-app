@@ -34,7 +34,7 @@ export class TodosFooterComponent implements OnInit {
 
   limpiarCompletados() {
 
-    this.store.dispatch( limpiarTodos())
+    this.store.dispatch(limpiarTodos())
 
   }
 
